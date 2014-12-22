@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="appName">Palette Previewer</string>
+
+  <string name="actionPick">Pick Image</string>
+  <string name="noAppsAvailable">No applications available to pick an image.</string>
+  <string name="noImageSelected">No image selected!</string>
+
+  <string name="vibrant">Vibrant</string>
+  <string name="vibrantDark">Vibrant Dark</string>
+  <string name="vibrantLight">Vibrant Light</string>
+  <string name="muted">Muted</string>
+  <string name="mutedDark">Muted Dark</string>
+  <string name="mutedLight">Muted Light</string>
+
+</resources>

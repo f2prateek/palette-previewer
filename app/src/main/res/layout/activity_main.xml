@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/heroImage"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"/>
+
+    <com.f2prateek.palettepreviewer.SwatchTextView
+        android:id="@+id/vibrantText"
+        style="@style/SwatchText"
+        android:text="@string/vibrant"/>
+
+    <com.f2prateek.palettepreviewer.SwatchTextView
+        android:id="@+id/vibrantDarkText"
+        style="@style/SwatchText"
+        android:text="@string/vibrantDark"/>
+
+    <com.f2prateek.palettepreviewer.SwatchTextView
+        android:id="@+id/vibrantLightText"
+        style="@style/SwatchText"
+        android:text="@string/vibrantLight"/>
+
+    <com.f2prateek.palettepreviewer.SwatchTextView
+        android:id="@+id/mutedText"
+        style="@style/SwatchText"
+        android:text="@string/muted"/>
+
+    <com.f2prateek.palettepreviewer.SwatchTextView
+        android:id="@+id/mutedDarkText"
+        style="@style/SwatchText"
+        android:text="@string/mutedDark"/>
+
+    <com.f2prateek.palettepreviewer.SwatchTextView
+        android:id="@+id/mutedLightText"
+        style="@style/SwatchText"
+        android:text="@string/mutedLight"/>
+
+  </LinearLayout>
+
+</ScrollView>
